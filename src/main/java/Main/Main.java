@@ -14,6 +14,7 @@ public class Main {
     private static Scanner scanner = new Scanner(System.in);
     private static String workingString;
     private static String placeholder = "###BU###";
+    private static String path;
 
 
     public static void main(String[] args) throws Exception {
@@ -25,8 +26,12 @@ public class Main {
         }));
 
         translates();
-        System.out.print("\u001B[31m Введите директорию файла который надо расшифровать Ня.: \u001B[0m");
-        String path = scanner.nextLine();
+        if (args == null || args.length == 0 || args[0] == null) {
+            System.out.print("\u001B[31m Введите директорию файла который надо расшифровать Ня.: \u001B[0m");
+            path = scanner.nextLine();
+        } else {
+            path = args[0];
+        }
 
         System.setOut(new PrintStream(System.out, true, java.nio.charset.StandardCharsets.UTF_8));
         try {
@@ -245,3 +250,4 @@ public class Main {
     translate.put("Мяу", "delete");
     }
 }
+
