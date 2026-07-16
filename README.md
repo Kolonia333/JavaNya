@@ -10,7 +10,7 @@
 ---
 
 ## 🌍 Выберите язык / Select Language
-[🇷🇺 Русский (Синтаксис)](README_RU.md) | [🇺🇸 English (Coming soon)](README_EN.md) | [🇯🇵 日本語 (Coming soon)](README_JP.md)
+[🇷🇺 Русский (Синтаксис)](README_RU.md) | [🇺🇸 English](README_EN.md) | [🇯🇵 日本語](README_JP.md)
 
 ---
 
