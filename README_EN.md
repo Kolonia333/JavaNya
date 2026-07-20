@@ -1,23 +1,18 @@
+# JavaNya (НяДжава) - English Documentation
 
-# JavaNya (НяДжава)
-
-An esoteric programming language based on Java with syntax from the Steins;Gate universe.
+An esoteric programming language translator based on Java with syntax inspired by the Steins;Gate universe.
 
 ## Requirements
-- JDK 17+
+- JDK 
 - Gradle
 
-## Running
-```
-gradlew run
-```
-Enter the path to a `.jnya` file when prompted.
+Enter the path to the `.jnya` file when prompted by the program.
 
 ## Syntax
 
 Every file must start with `Тунтуру!`
 
-### Modifiers and structure
+### Modifiers and Structure
 | JavaNya | Java |
 |---|---|
 | лаборатория | public |
@@ -39,7 +34,7 @@ Every file must start with `Тунтуру!`
 | ассистентка | // |
 | Мяу | delete |
 
-### Data types
+### Data Types
 | JavaNya | Java |
 |---|---|
 | моека | int |
@@ -59,7 +54,7 @@ Every file must start with `Тунтуру!`
 | Йуга | Short |
 | Конгуру! | char |
 
-### Methods and keywords
+### Methods and Keywords
 | JavaNya | Java |
 |---|---|
 | Някод | main |
@@ -78,7 +73,7 @@ Every file must start with `Тунтуру!`
 | Аттрактор | System.exit(11037) |
 | Кристина | args |
 
-### Control flow
+### Control Flow
 | JavaNya | Java |
 |---|---|
 | чтение | if |
@@ -95,7 +90,7 @@ Every file must start with `Тунтуру!`
 | наблюдатель | instanceof |
 | Акиха | instanceof |
 
-### Brackets and delimiters
+### Brackets and Delimiters
 | JavaNya | Java |
 |---|---|
 | Врата | { |
@@ -106,21 +101,21 @@ Every file must start with `Тунтуру!`
 
 ### Operators
 | JavaNya | Java |
-|---|------|
-| шип | =    |
-| шип? | ==   |
-| СИЛЬНЕЕ | \>   |
-| СЛАБЕЕ | <    |
-| СИЛЬНЕЕ? | >=   |
-| СЛАБЕЕ? | <=   |
-| плюс | +    |
-| минус | -    |
-| умножить | *    |
-| разделить | /    |
-| остаток | %    |
-| И | &&   |
-| ИЛИ | \|\| |
-| НЕ | !    |
+|---|---|
+| шип | = |
+| шип? | == |
+| СИЛЬНЕЕ | > |
+| СЛАБЕЕ | < |
+| СИЛЬНЕЕ? | >= |
+| СЛАБЕЕ? | <= |
+| плюс | + |
+| минус | - |
+| умножить | * |
+| разделить | / |
+| остаток | % |
+| И | && |
+| ИЛИ | || |
+| НЕ | ! |
 
 ### Collections
 | JavaNya | Java |
@@ -157,12 +152,26 @@ Every file must start with `Тунтуру!`
 | Аманэ | wait |
 | Макисэ | notify() |
 
-### Misc
+### Miscellaneous
 | JavaNya | Java |
 |---|---|
 | начать | start |
 | записать | write |
 | прочитать | read |
 
+### Flags
+| Flag | Action |
+| --- | --- |
+| -help | Display all commands |
+| -e | Exit |
+| -ot | Translation only |
+| -otc | Translation and compilation |
+| -ts | Tsundere mode |
+| -s | Save Java code |
+| -i | java -> jnya |
+| -o "a" | Name the output file "a" |
+| -v | Debug mode |
+| -n | New iteration |
+
 ## Examples
-See `demo1.jnya` — `demo4.jnya` and `Nyakod.jnya`
+See files `demo1.jnya` — `demo4.jnya` and `Nyakod.jnya`.
