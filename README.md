@@ -30,7 +30,7 @@ git clone https://github.com/Kolonia333/JavaNya.git
 ```
 2.зайди в папку с скриптом:
 ```bash
-cd ( путь )/JavaNya/src/main/java/Main/
+cd ( путь )
 ```
 3. запусти скрипт:
 ```bash
