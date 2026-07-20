@@ -37,6 +37,16 @@ cd ( путь )
 java Main.java
 ```
 ---
+
+### Примеры использования: 
+```bash
+java Main.java -ts -v (путь)/JavaNya/src/main/java/Main/demo3.jnya
+```
+или 
+```bash
+java Main.java 
+```
+---
 ### Важно 
 Если вместо текста в консоли вы видите странные символы:
 1. Используйте **PowerShell** вместо **cmd**.
